@@ -116,8 +116,8 @@
    <section class="clients">
      <div class="wrap">
        <div class="clients-pull">
-       <ul class="clients-list">
-         <li class="clients-list-item clearfix"><img src="img/logo-1.png" width="260" height="180" class="clients-logo" alt="Академия"></li>
+       <ul class="clients-list clearfix">
+         <li class="clients-list-item"><img src="img/logo-1.png" width="260" height="180" class="clients-logo" alt="Академия"></li>
          <li class="clients-list-item"><img src="img/logo-2.png" width="260" height="180" class="clients-logo" alt="Барбершоп"></li>
          <li class="clients-list-item"><img src="img/logo-3.png" width="260" height="180" class="clients-logo" alt="ПИНК"></li>
          <li class="clients-list-item"><img src="img/logo-4.png" width="260" height="180" class="clients-logo" alt="МИШКА"></li>
@@ -126,25 +126,27 @@
      </div>
    </section>
    <section class="map">
+
+      <img class="label-map" src="img/map-marker.png" alt="метка">
      <div class="wrap">
        <div class="map-adds">
          <h4 class="adds-heading">NЁRDS DESIGN STUDIO</h4>
-         <p class="adds">191186,Санкт-Петербург,ул.Б.Конюшенная,д.19/8</p>
+         <p class="adds">191186,Санкт-Петербург,<br>ул.Б.Конюшенная,д.19/8</p>
          <p class="adds-phone">тел.+7(812)275-75-75</p>
+         <div class="adds-btn-pull">
          <a class="adds-btn">НАПИШИТЕ НАМ</a>
        </div>
-       <img class="map-mark" src="img/map.jpg" alt="Карта">
-       <img class="label-map" src="img/map-marker.png" alt="метка">
+       </div>
        <div class="map-modal">
-         <h3 class="modal-heading"></h3>
+         <h3 class="modal-heading">Напишите нам</h3>
          <span class="modal-close">X</span>
          <form class="modal-form">
-           <label class="form-label"></label>
-           <input type="text" class="form-textbox">
-           <label class="form-label"></label>
-           <input type="text" class="form-textbox">
-           <label class="form-label"></label>
-           <textarea class="form-textarea"></textarea>
+           <label class="form-label">Ваше имя:<br>
+           <input type="text" class="form-textbox" placeholder="  Имя Фамилия"></label>
+           <label class="form-label">Ваш e-mail:<br>
+           <input type="text" class="form-textbox" placeholder="  email@example.com"></label><br>
+           <label class="form-label-letter">Текст письма:<br>
+           <textarea class="form-textarea" placeholder="  В свободной форме"></textarea></label><br>
            <button class="form-btn">ОТПРАВИТЬ</button>
         </form>
       </div>

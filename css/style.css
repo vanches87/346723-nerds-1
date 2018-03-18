@@ -175,7 +175,7 @@ border-radius: 5px;
   margin-top: 37px;
 }
 .features-list-item{
-  margin-bottom: 37px;
+  margin-bottom: 23px;
 }
 .about-indicators{
   float: right;
@@ -209,9 +209,121 @@ border-radius: 5px;
   margin-top: 28px;
 }
 .clients-pull{
-  width: 1160px;
   height: 180px;
+  border-bottom: 2px solid #eee;
 }
-.clients-logo{
+.clients-list-item{
   float: left;
+  opacity:0.3;
+}
+.clients-list-item:nth-child(2){
+  margin-left: 40px;
+}
+.clients-list-item:nth-child(3){
+  margin-left: 40px;
+}
+.clients-list-item:nth-child(4){
+  margin-left: 40px;
+}
+.map{
+  background: url("../img/map2.jpg");
+  background-repeat: no-repeat;
+  margin-top: 80px;
+}
+.map-adds{
+  width: 318px;
+  height: 308px;
+  position: relative;
+  background-color:#fff;
+  top: -140px;
+}
+.adds-heading{
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 53px;
+  padding-left: 50px;
+}
+.adds{
+padding-top: 34px;
+padding-left: 51px;
+}
+.adds-phone{
+  padding-top: 24px;
+  padding-left: 51px;
+}
+.adds-btn-pull{
+  margin-top: 41px;
+  margin-left: 50px;
+}
+.adds-btn{
+  color: #fff;
+  text-decoration: none;
+  background-color: #fb565a;
+  padding: 19px 45px;
+  border-radius: 5px;
+  }
+  .label-map{
+    position: relative;
+    top: 101px;
+    left: 732px;
+  }
+  .map-modal{
+    width: 960px;
+    height: 590px;
+    background: #fff;
+    position: relative;
+  }
+  .modal-heading{
+    font-size: 43px;
+    padding-top: 75px;
+    padding-left: 100px;
+  }
+  .modal-form{
+    margin-top: 50px;
+    width: 809px;
+    height: 351px;
+    margin-left: 100px;
+  }
+  .form-label{
+    float: left;
+  }
+  .form-label:nth-child(2){
+    padding-left: 40px;
+  }
+  .form-textbox{
+    width: 360px;
+    height: 48px;
+    margin-top: 13px;
+    border-radius: 5px;
+    border-color: #d7dcde;
+    border-width:2px;
+  }
+  .form-label-letter{
+    float: left;
+    margin-top: 37px;
+  }
+  .form-label{
+    font-weight: bold;
+  }
+.form-textarea{
+  width: 760px;
+  height: 117px;
+  margin-top: 13px;
+  border-radius: 5px;
+  border-color: #d7dcde;
+  border-width:2px;
+  resize:none;
+}
+.form-btn{
+  margin-top: 47px;
+  background-color: #fb565a;
+  color: #fff;
+  width: 260px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+}
+.modal-close{
+  float: right;
+  margin-right: 90px;
 }
