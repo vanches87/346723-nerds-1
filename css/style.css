@@ -214,21 +214,18 @@ border-radius: 5px;
 }
 .clients-list-item{
   float: left;
-  opacity:0.3;
+  opacity:.3;
+  margin-right: 40px;
 }
-.clients-list-item:nth-child(2){
-  margin-left: 40px;
-}
-.clients-list-item:nth-child(3){
-  margin-left: 40px;
-}
-.clients-list-item:nth-child(4){
-  margin-left: 40px;
+.clients-list-item:last-of-type{
+  margin-right: 0;
 }
 .map{
   background: url("../img/map2.jpg");
   background-repeat: no-repeat;
   margin-top: 80px;
+  background-size: contain;
+  position: relative;
 }
 .map-adds{
   width: 318px;
@@ -259,7 +256,7 @@ padding-left: 51px;
   color: #fff;
   text-decoration: none;
   background-color: #fb565a;
-  padding: 19px 45px;
+  padding: 15px 55px;
   border-radius: 5px;
   }
   .label-map{
@@ -272,6 +269,9 @@ padding-left: 51px;
     height: 590px;
     background: #fff;
     position: relative;
+    top:-638px;
+    left: 86px;
+    display: ;
   }
   .modal-heading{
     font-size: 43px;
@@ -295,8 +295,7 @@ padding-left: 51px;
     height: 48px;
     margin-top: 13px;
     border-radius: 5px;
-    border-color: #d7dcde;
-    border-width:2px;
+    border: 2px solid #d7dcde;
   }
   .form-label-letter{
     float: left;
@@ -325,5 +324,68 @@ padding-left: 51px;
 }
 .modal-close{
   float: right;
-  margin-right: 90px;
+  top: 76px;
+  right: 90px;
+  position: absolute;
+  background: url("../img/close-cross.svg");
+  background-repeat:no-repeat;
+  width: 21px;
+  height: 21px;
+  opacity: .3;
+  font-size: 0;
+}
+.footer-social-list{
+  float: left;
+  width: 260px;
+}
+.social-vk{
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin: 0 2px;
+  background: #e1e1e1 url("../img/vk-icon.svg") no-repeat center;
+  vertical-align: top;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.social-fb{
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin: 0 2px;
+  background: #e1e1e1 url("../img/fb-icon.svg") no-repeat center;
+  vertical-align: top;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.social-insta{
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin: 0 2px;
+  background: #e1e1e1 url("../img/insta-icon.svg") no-repeat center;
+  vertical-align: top;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.footer-heading{
+margin-left: 400px;
+margin-bottom: 14px;
+font-size: 36px;
+font-weight: bold;
+}
+.footer-desc{
+  margin-left: 400px;
+  margin-bottom: 78px;
+}
+.header-heading{
+  padding-top: 104px;
+  padding-bottom: 118px;
+  padding-left: 219px;
+  font-size: 55px;
+}
+.products-filters{
+  width: 260px;
+  height: 772px;
+  float: left;
 }
